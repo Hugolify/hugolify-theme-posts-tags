@@ -1,5 +1,5 @@
 {{ with .GetTerms "tags" }}
-  <div class="list-tags">
+  <div class="list list-tags">
     <p>{{ i18n "tags.title" (. | len) }}</p>
     <ul>
       {{ range . }}
