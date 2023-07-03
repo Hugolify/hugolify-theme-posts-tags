@@ -14,11 +14,12 @@
         &::before
             content: none
         a
+            --bs-badge-color: white
             @extend .badge
-            @extend .text-bg-secondary
+            background-color: $secondary
             text-decoration: none
 
-aside.list-tags
+section + .list-tags
     border-top: 1px solid $border-color
     margin-top: $global-spacing
     padding-top: calc(#{$global-spacing} / 2)
