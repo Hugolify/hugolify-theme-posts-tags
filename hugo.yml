@@ -16,3 +16,8 @@ permalinks:
   tags: /news/tags/:slug/
 taxonomies:
   tag: tags
+
+params:
+  admin:
+    collections:
+      posts_tags: true
