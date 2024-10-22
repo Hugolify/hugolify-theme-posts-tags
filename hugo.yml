@@ -20,4 +20,5 @@ taxonomies:
 params:
   admin:
     collections:
-      posts_tags: true
+      posts_tags:
+        enable: true
