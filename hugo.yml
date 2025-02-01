@@ -11,12 +11,16 @@ module:
     - source: layouts
       target: layouts
 
-# Default
+# Config
 permalinks:
-  tags: /news/tags/:slug/
+  taxonomy:
+    tags: /news/tags/
+  term:
+    tags: /news/tags/:slug/
 taxonomies:
   tag: tags
 
+# Params
 params:
   admin:
     collections:
