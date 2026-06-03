@@ -1,0 +1,12 @@
+/* css/modules/posts-tags.css — hugolify-theme-posts-tags entry point */
+
+/* Tokens */
+@import '../tokens/posts-tags.css';
+
+/* Components */
+@import '../components/posts-tag.css';
+@import '../components/posts-tags.css';
+
+/* Pages */
+@import '../pages/posts-tag.css';
+@import '../pages/posts-tags.css';
