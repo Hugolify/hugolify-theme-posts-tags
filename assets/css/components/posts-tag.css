@@ -1,0 +1,11 @@
+/* components/posts-tag.css */
+/*
+ * Usage: <article class="item tag">
+ */
+@layer components {
+  .tag {
+    .btn {
+      display: none;
+    }
+  }
+}
